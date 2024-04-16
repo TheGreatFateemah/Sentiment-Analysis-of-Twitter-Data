@@ -2,9 +2,9 @@
 
 ## Introduction
 
-![]()
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/jagunjagun.jpeg)
 
-This project scrapes data from twitter using the nitter library, uses Power Query for data cleaning and Text Analytics for sentiment classification. Then uses Power BI desktop for visualization.
+This project analyzes data from the twitter hashtag (#jagunjagunmovie) by scraping the data from twitter using the nitter library, using Power Query for data cleaning and Text Analytics for sentiment classification. Then use Power BI desktop for visualization.
 
 
 ## Skills Demonstrated
@@ -38,14 +38,17 @@ Power BI is a business analytics service provided by Microsoft, offering users a
 ## Data Cleaning
 The generated csv file(“twitter_data_final”) was imported to Power Query from Power BI desktop for cleaning and preprocessing.
  
-Figure 4.1 – Power Query Editor
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/power%20query%20editor.jpg)
+
 In the Power Query editor, the following steps were taken to ensure that the data is ready for analysis:
 -	Remove Index Column
 This column was removed because it is not useful in the analysis. Right-click on the column and select “Remove” from the options.
  
-Figure 4.2 – Remove Index Column
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/remove%20index.jpg)
+
 -	Format Date Column
- Figure 4.3 –Date column before formatting
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/date%20column.jpg)
+ 
 The following steps were taken to format the date column:
 -	Replace UTC with nothing by clicking on replace values in the Transform tab.
 - Split the date column by position 0,4,7,12.
@@ -56,7 +59,9 @@ The following steps were taken to format the date column:
 -	Change the data type of the new date column to “Date” and rename to Date.
 -	Remove date.1, date.2 and date.3 columns.
  
-Figure 4.4 – Date column after being formatted
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/date%20type.jpg)
+
+
 ## Sentiment Analysis
 Power Query was utilized to apply Sentiment Score for sentiment analysis using "Text Analytics." Several steps were executed, including scoring sentiment, filtering null values, and creating additional columns to categorize sentiments and include corresponding emoji URLs.
 -	Click on Text Analytics on the Home Tab.
@@ -74,14 +79,15 @@ Power Query was utilized to apply Sentiment Score for sentiment analysis using "
 
 ## Word Cloud Generation
 A Word Cloud was generated to visually represent the most frequently occurring words in the collected tweets. The WordCloud library was employed with parameters set to limit the number of words and customize the background colour. The resulting visualization provides an overview of prominent words in the dataset.
- 
-Figure 4.5 – Word Cloud Visual.
+
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/wordcloud.png)
 
 
 ## Visualization Using Power BI
 Power BI was used to create visualizations to aid analysis of the result.
- 
-Figure 4.6 - Dashboard
+
+![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/Dashboard.jpg)
+
 You can interact with the dashboard using this link - https://tinyurl.com/SentimentAnalysisDashboard
 ### Analysis of The Result
 -	The tweets were collected from about 3,500 users.

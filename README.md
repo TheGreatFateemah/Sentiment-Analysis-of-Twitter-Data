@@ -4,7 +4,7 @@
 
 ![](https://github.com/TheGreatFateemah/Sentiment-Analysis-of-Twitter-Data/blob/main/jagunjagun.jpeg)
 
-This project analyzes data from the twitter hashtag (#jagunjagunmovie) by scraping the data from twitter using the nitter library, using Power Query for data cleaning and Text Analytics for sentiment classification. Then use Power BI desktop for visualization.
+This project analyzes data from the twitter hashtag (#jagunjagunmovie) by scraping the data from twitter using the nitter library, using Power Query for data cleaning and Text Analytics for sentiment classification. Then using Power BI desktop for visualization.
 
 
 ## Skills Demonstrated
